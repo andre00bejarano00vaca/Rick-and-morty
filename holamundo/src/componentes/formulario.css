@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+main{
+    height: 100vh;
+
+    display: grid;
+    
+    /* Cambia los valores para experimentar👇 */
+       align-content: center;
+       justify-content: center;
+}
+.formulario{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    border: 1px solid red;
+    gap: 10px;
+    
+}
+
+input{
+    height: 36px;
+    width: 200px;
+}
+
+.salario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.fecha{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
